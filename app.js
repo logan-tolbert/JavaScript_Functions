@@ -14,6 +14,8 @@ function printOdds(count) {
     };
 };
 
+console.log(printOdds(100));
+
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 function checkAge(userName='user', age=0) {
@@ -26,6 +28,10 @@ function checkAge(userName='user', age=0) {
         return aboveSixteen
     };
 };
+
+console.log(checkAge("Logan", 36));
+console.log(checkAge());
+
 
 // Exercise 3
 console.log("EXERCISE 3:\n==========\n");
